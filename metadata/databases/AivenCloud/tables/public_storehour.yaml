@@ -1,0 +1,7 @@
+table:
+  name: storehour
+  schema: public
+object_relationships:
+  - name: store
+    using:
+      foreign_key_constraint_on: storeid
